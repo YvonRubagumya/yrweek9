@@ -115,4 +115,24 @@ nav a:hover, nav a:active{
 MEDIA QUERIES
 ****************************/
 
-@media sceen and 
+@media screen and (min-with:640px){
+     /*any style inside this media quiry will only apply if the screen/browser is 640 px or wider */
+     nav a {
+        float: left;
+        width: 25%;
+        /*box sizing can make the padding and boarder not count towards the element  size */
+        box-sizing: border-box;
+     }
+
+     /*make the content goes below the floated stuff */
+     main{
+        clear:both;
+     }
+}
+
+/* order matters - put your smallest media queries first  */
+@media screen and (min-with:800px){
+    nav a {
+        background-color: chartreuse;
+    }
+}
