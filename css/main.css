@@ -84,3 +84,35 @@ h1{
      /*padding is the space insisde  the element , it puches content away from the edge */
      padding: 10px;
 }
+
+
+
+
+
+
+
+/***************************************************
+MOBILE STYLE
+****************************************************/
+
+/* target the a tags only in the nav  */
+nav a{
+    /* make the block elements , so we can style them like botton */
+    display:block;
+    background-color: cadetblue;
+    padding:10px;
+    border-top:2px;
+    border-bottom: 2px solid darkblue;
+    /*center the underline */
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active{
+    background-color: white;
+}
+
+/***************************
+MEDIA QUERIES
+****************************/
+
+@media sceen and 
